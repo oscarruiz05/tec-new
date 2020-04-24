@@ -65,7 +65,7 @@ hr{
     /* color: black; */
     width: 100%;
     height: 540px;
-    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    background: url(../img/covid.jpg) no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -76,6 +76,7 @@ hr{
 }
 .back{
     background-color: #262626ce;
+    padding: 15px;
 }
 .btn{
     cursor: pointer;
@@ -94,6 +95,9 @@ hr{
 .showcase h2,
 .showcase p{
     margin-bottom: 10px;
+}
+.showcase h2{
+    text-transform: uppercase;
 }
 /* news-cards */
 .news-card{
